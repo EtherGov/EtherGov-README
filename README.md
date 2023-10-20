@@ -29,7 +29,7 @@ DAOs have historically struggled to garner participation, due to the inherently 
 - Payload abstraction: instead of mandating non-technical council members to define complex payload inputs pertaining to a transaction, EtherGov has provided a list of commonly-used transaction presets for the proposal initiator to simulate the transaction as if it’s conducted via the front-end of the protocol itself (the payload will be automatically generated based on selection of the proposal initiator via the EtherGov widget, representing the transaction).
 
 Every EtherGov deployment fundamentally consist of safeAA, govContract, and chainModule: safeAA for account abstraction (e.g., gasless voting, etc.) and to hold treasury funds, govContract encapsulates the primary voting logic governing the safeAA, while chainModule is a generic “pass-through” (built on top of Hyperlane) handling payload generation and transmission (so that it is securely relayed and is executable upon arrival on the target chain’s chainModule).
-![EtherGov basic deployment flow](https://prod-files-secure.s3.us-west-2.amazonaws.com/d0ae2583-baf0-464e-a9a8-a9c049ed2bb6/12155594-d088-473f-9664-52524eb5a524/Untitled.png)
+![EtherGov basic transaction flow](https://github.com/EtherGov/EtherGov-README/assets/93366176/1115a268-2be2-4e13-be78-a59500c897dc)
 
 ## Future Improvements
 
