@@ -31,16 +31,28 @@ DAOs have historically struggled to garner participation, due to the inherently 
 Every EtherGov deployment fundamentally consist of safeAA, govContract, and chainModule: safeAA for account abstraction (e.g., gasless voting, etc.) and to hold treasury funds, govContract encapsulates the primary voting logic governing the safeAA, while chainModule is a generic “pass-through” (built on top of Hyperlane) handling payload generation and transmission (so that it is securely relayed and is executable upon arrival on the target chain’s chainModule).
 ![EtherGov basic transaction flow](https://github.com/EtherGov/EtherGov-README/assets/93366176/1115a268-2be2-4e13-be78-a59500c897dc)
 
-## Future Improvements
+### Example Use Cases
+EtherGov DAOs are most suitable for any use case that requires the collective management of a shared pool of funds meant for a certain purpose / cause, and that nobody is allowed to have “sudo control” over the group’s treasury. Some examples:
+- Decentralized investment / VC fund;
+- Decentralized on-profit / charitable foundation;
+- Shared treasury for an NFT project;
+- Shared treasury for a university club;
+- Shared treasury for an events organizer;
+- Shared pool of funds amongst a group of friends;
+- etc.
+
+### Future Improvements
 The current iteration of EtherGov is the bare minimum MVP that is necessary to serve as a PoC for [ETHOnline 2023](https://ethglobal.com/events/ethonline2023).
 
 **Potential features yet-to-be-implemented are as follows:**
 - Multiple NFTs to represent voter identities: a DAO may want to have multiple NFTs under its wing (e.g., BAYC and CryptoPunks, Azuki and Elementals, etc.) — EtherGov will enable DAOs to set multiple NFTs within its params, allowing for even more composable voting logic (e.g., a proposal may mandate users to lock both BAYC and CryptoPunks in order to vote, etc.);
+- SBT to represent voter identities: a DAO may want to operate under a closed-end structure, but still wishes to distribute control over the shared treasury equally amongst multiple known parties — instead of transferrable NFTs, EtherGov will allow non-transferrable SBTs (soulbound tokens) to represent a voter in closed-end DAOs;
 - Multiple ERC20s as voting power: a DAO may want to have multiple ERC20s under its wing (e.g., YugaLabs in the future might launch $PUNKS as a complement to $APE, etc.) — EtherGov will enable DAOs to set multiple ERC20s within its params, allowing for versatile per-proposal voting power arrangements (e.g., a proposal may have $APE lockers to be given 2x more voting power over $PUNKS for a BAYC-centric initiative, etc.);
 - Email / social login as another web2 alternative to Cometh’s biometric authentication;
-- Community-sourced transaction presets: anyone will be able to contribute transaction presets to EtherGov’s library for DAOs to use, in exchange for fees (one-time / per-usage).
-- Enshrined NFT / ERC20: prospective DAOs can mint NFTs / ERC20 through EtherGov, by which they will be natively enshrined within its treasury params (instead of having to mint NFTs / ERC20 separately, and then pasting their addresses into the DAO’s treasury params)
-- Generative mint-and-auction contract plugin: a separate contract emulating NounsDAO’s [noun auction mechanism](https://nouns.center/intro), automatically relaying proceeds to the DAO’s EtherGov treasury.
+- Community-sourced transaction presets: anyone will be able to contribute transaction presets to EtherGov’s library for DAOs to use, in exchange for fees (one-time / per-usage);
+- Enshrined NFT / ERC20: prospective DAOs can mint NFTs / ERC20 through EtherGov, by which they will be natively enshrined within its treasury params (instead of having to mint NFTs / ERC20 separately, and then pasting their addresses into the DAO’s treasury params);
+- Generative mint-and-auction contract plugin: a separate contract emulating NounsDAO’s noun auction mechanism, automatically relaying proceeds to the DAO’s EtherGov treasury;
+- Standalone EtherGov rollup: to allow for fully onchain organizational permissioning (built on top of EtherGov’s custom NFT / ERC20 implementation) and more granular control over the operating environment of EtherGov DAOs for future tokenholders.
 - etc.
 
 ### Video Demo
