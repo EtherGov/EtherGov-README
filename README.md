@@ -1,3 +1,5 @@
+![EtherGov header](https://github.com/EtherGov/EtherGov-README/assets/93366176/25669778-04f6-466c-9e7f-cf2f168ae7d3)
+
 # EtherGov: Chainless DAO-as-a-Service
 
 ## Background
@@ -19,7 +21,6 @@ EtherGov is a chain-agnostic treasury account for DAOs, with fully customizable 
 
 **Currently, EtherGov is equipped with the following governance primitives out-of-the-box:**
 - NFTs as the principal identity for a DAO voter: anyone who wants to participate in a proposal needs to own and lock an NFT associated with the DAO (defined within its treasury params);
-- ERC20 as voting power: when enabled on a proposal, instead of “one-NFT-one-vote” system, voters of that proposal would be under a veToken-esque mechanism (where the amount and remaining duration of the ERC20 that is timelocked determines a voter’s voting power);
 - Sismo Connect for reputation-based services: proposal participation can be further gated by any data group within Sismo Factory (if not available, one of the council members can always create a new Sismo data group that would better serve the needs of the DAO);
 - Governing Council (inspired by Polkadot’s OpenGov): only people that is part of the council will be allowed to initiate proposals and remove fellow council members — anyone can make their case and submit a council candidacy (alongside an arbitrary self-bond amount), and if the candidacy proposal collects enough votes, the candidate is admitted to the council list.
 
@@ -46,7 +47,8 @@ The current iteration of EtherGov is the bare minimum MVP that is necessary to s
 
 **Potential features yet-to-be-implemented are as follows:**
 - Multiple NFTs to represent voter identities: a DAO may want to have multiple NFTs under its wing (e.g., BAYC and CryptoPunks, Azuki and Elementals, etc.) — EtherGov will enable DAOs to set multiple NFTs within its params, allowing for even more composable voting logic (e.g., a proposal may mandate users to lock both BAYC and CryptoPunks in order to vote, etc.);
-- SBT to represent voter identities: a DAO may want to operate under a closed-end structure, but still wishes to distribute control over the shared treasury equally amongst multiple known parties — instead of transferrable NFTs, EtherGov will allow non-transferrable SBTs (soulbound tokens) to represent a voter in closed-end DAOs;
+- SBTs to represent voter identities: a DAO may want to operate under a closed-end structure, but still wishes to distribute control over the shared treasury equally amongst multiple known parties — instead of transferrable NFTs, EtherGov will allow non-transferrable SBTs (soulbound tokens) to represent a voter in closed-end DAOs;
+- ERC20 as voting power: when enabled on a proposal, instead of “one-NFT-one-vote” system, voters of that proposal would be under a veToken-esque mechanism (where the amount and timelocked duration of the ERC20 binded to an NFT will determine a voter’s voting power);
 - Multiple ERC20s as voting power: a DAO may want to have multiple ERC20s under its wing (e.g., YugaLabs in the future might launch $PUNKS as a complement to $APE, etc.) — EtherGov will enable DAOs to set multiple ERC20s within its params, allowing for versatile per-proposal voting power arrangements (e.g., a proposal may have $APE lockers to be given 2x more voting power over $PUNKS for a BAYC-centric initiative, etc.);
 - Email / social login as another web2 alternative to Cometh’s biometric authentication;
 - Community-sourced transaction presets: anyone will be able to contribute transaction presets to EtherGov’s library for DAOs to use, in exchange for fees (one-time / per-usage);
