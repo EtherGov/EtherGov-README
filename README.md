@@ -18,7 +18,7 @@ In addition, once launched, the DAO’s operations will forever be heavily restr
 It is travesty to expect DAOs to concern themselves as to which chain to base their treasury on, let alone managing their own set of contracts, whether through forks / integrations or even building from scratch. The only thing that DAOs should concern themselves with, are aspects relating to the community: establishing a vision or ideology, attracting likeminded people from all over the internet, ideating on proposals (and the passing requirements of each), etc.
 
 ## Solution
-EtherGov is a DAO-as-a-Service (DaaS) platform, lifting the heavy operational burden of DAOs while also enabling their treasury to be “chainless” for the very first time. DAOs no longer need to concern themselves with infra-setting: EtherGov abstracts away infra management complexities of DAOs, allowing them to solely focus on what matters most — the community.
+EtherGov is a DAO-as-a-Service (DaaS) platform, lifting the heavy operational burden of DAOs while also enabling their treasury to be “chainless” for the very first time. DAOs no longer need to concern themselves with infra-setting — EtherGov abstracts away infra management complexities of DAOs, allowing them to solely focus on what matters most: the community.
 
 EtherGov is a chain-agnostic treasury account for DAOs, with fully customizable payload to enable the execution of any arbitrary transaction on any chain, and extensible plug-and-play governance primitives to allow for composable voting logic on a per-proposal basis. With EtherGov, anyone regardless of web3 experience, can launch their own fully-fledged DAO.
 
