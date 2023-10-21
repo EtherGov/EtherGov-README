@@ -2,6 +2,9 @@
 
 # EtherGov: Chainless DAO-as-a-Service
 
+### Video Demo
+_paste link here_
+
 ## Background
 DAOs present a new phenomenon native to the web3 space. For the first time throughout history, people are able to assemble and collectively preside over a pool of funds meant for a certain cause that they’re aligned with. DAOs are inherently borderless — internet-native organizations that arise out of a similar set of beliefs of its members.
 
@@ -56,6 +59,3 @@ The current iteration of EtherGov is the bare minimum MVP that is necessary to s
 - Generative mint-and-auction contract plugin: a separate contract emulating NounsDAO’s noun auction mechanism, automatically relaying proceeds to the DAO’s EtherGov treasury;
 - Standalone EtherGov rollup: to allow for fully onchain organizational permissioning (built on top of EtherGov’s custom NFT / ERC20 implementation) and more granular control over the operating environment of EtherGov DAOs for future tokenholders.
 - etc.
-
-### Video Demo
-_paste link here_
