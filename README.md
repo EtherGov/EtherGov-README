@@ -2,11 +2,11 @@
 
 # EtherGov: Chainless DAO-as-a-Service
 
-### Link to repositories
-https://github.com/orgs/EtherGov/repositories
-
 ### Video Demo
 _paste link here_
+
+### Link to Repositories
+https://github.com/orgs/EtherGov/repositories
 
 ## Background
 DAOs present a new phenomenon native to the web3 space. For the first time throughout history, people are able to assemble and collectively preside over a pool of funds meant for a certain cause that they’re aligned with. DAOs are inherently borderless — internet-native organizations that arise out of a similar set of beliefs of its members.
