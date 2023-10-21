@@ -20,7 +20,7 @@ It is travesty to expect DAOs to concern themselves as to which chain to base th
 ## Solution
 EtherGov is a DAO-as-a-Service (DaaS) platform, lifting the heavy operational burden of DAOs while also enabling their treasury to be “chainless” for the very first time. DAOs no longer need to concern themselves with infra-setting — EtherGov abstracts away infra management complexities of DAOs, allowing them to solely focus on what matters most: the community.
 
-EtherGov is a chain-agnostic treasury account for DAOs, with fully customizable payload to enable the execution of any arbitrary transaction on any chain, and extensible plug-and-play governance primitives to allow for composable voting logic on a per-proposal basis. With EtherGov, anyone regardless of web3 experience, can launch their own fully-fledged DAO.
+EtherGov is a chain-agnostic treasury account for DAOs, with fully customizable payload to enable the execution of any arbitrary transaction on any chain, and extensible plug-and-play governance primitives to allow for composable voting logic on a per-proposal basis. With EtherGov, anyone regardless of web3 experience, can launch a fully-fledged DAO equipped with its own chain-agnostic treasury account that is collectively governed by its members.
 
 **Currently, EtherGov is equipped with the following governance primitives out-of-the-box:**
 - NFTs as the principal identity for a DAO voter: anyone who wants to participate in a proposal needs to own and lock an NFT associated with the DAO (defined within its treasury params);
