@@ -61,5 +61,6 @@ The current iteration of EtherGov is the bare minimum MVP that is necessary to s
 - Community-sourced transaction presets: anyone will be able to contribute transaction presets to EtherGov’s library for DAOs to use, in exchange for fees (one-time / per-usage);
 - Enshrined NFT / ERC20: prospective DAOs can mint NFTs / ERC20 through EtherGov, by which they will be natively enshrined within its treasury params (instead of having to mint NFTs / ERC20 separately, and then pasting their addresses into the DAO’s treasury params);
 - Generative mint-and-auction contract plugin: a separate contract emulating NounsDAO’s noun auction mechanism, automatically relaying proceeds to the DAO’s EtherGov treasury;
-- Standalone EtherGov rollup: to allow for fully onchain organizational permissioning (built on top of EtherGov’s custom NFT / ERC20 implementation) and more granular control over the operating environment of EtherGov DAOs for future tokenholders.
+- Community-sourced plugins: anyone will be able to contribute plugins to EtherGov, ensuring that EtherGov DAOs can evolve alongside newly-invented DAO primitives (e.g., NounsDAO’s “rage quit” or fork mechanics, MakerDAO’s conduits and subDAOs, etc.);
+- Standalone EtherGov rollup: a dedicated DAO-centric operating environment to allow for fully onchain organizational permissioning and the enablement of more versatile DAO frameworks.
 - etc.
