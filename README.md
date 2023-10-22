@@ -3,7 +3,7 @@
 # EtherGov: Chainless DAO-as-a-Service
 
 ### Video Demo
-_paste link here_
+https://www.youtube.com/watch?v=zfjwTtwyt5E
 
 ### Link to Repositories
 https://github.com/orgs/EtherGov/repositories
